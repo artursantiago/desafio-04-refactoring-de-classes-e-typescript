@@ -3,14 +3,14 @@ import { FiCheckSquare } from 'react-icons/fi';
 
 import Modal from '../Modal';
 import Input from '../Input';
-import { FoodForm } from '../../types';
+import { Food, FoodForm } from '../../types';
 
 import { Form } from './styles';
 
 interface ModalEditFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
-  editingFood: () => void;
+  editingFood: Food;
   handleUpdateFood: ({ food }: FoodForm) => void;
 }
 
