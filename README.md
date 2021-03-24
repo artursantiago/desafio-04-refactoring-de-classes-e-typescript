@@ -35,11 +35,11 @@ yarn server
 
 Em seguida, você vai ver a mensagem:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c36df318-fb33-4a83-9d58-8f75b9be249c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c36df318-fb33-4a83-9d58-8f75b9be249c/Untitled.png)
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc36df318-fb33-4a83-9d58-8f75b9be249c%2FUntitled.png?table=block&id=f0838129-b592-423b-bb95-fdc7dc982c88&width=2910&userId=08462504-fff2-4a75-83ee-91dbb28214f5&cache=v2" />
 
 Perceba que ele iniciou uma fake API com o recurso `/foods` em `localhost` na porta `3333` a partir das informações do arquivo [server.json](https://github.com/rocketseat-education/ignite-template-reactjs-refactoring-classes-ts/blob/master/server.json) localizado na raiz do seu projeto. Acessando essa rota no seu navegador, você consegue ver o retorno das informações já em JSON:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc8fd976-5a03-453d-8510-cf8a6925d4e8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc8fd976-5a03-453d-8510-cf8a6925d4e8/Untitled.png)
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbc8fd976-5a03-453d-8510-cf8a6925d4e8%2FUntitled.png?table=block&id=9ecb7f94-78b0-4ec8-aabe-628b1e120275&width=2910&userId=08462504-fff2-4a75-83ee-91dbb28214f5&cache=v2" />
 
 Dessa forma, basta consumir essas rotas da API normalmente com o Axios. Caso queira estudar mais sobre o **JSON Server**, dê uma olhada aqui:
 
