@@ -11,7 +11,7 @@ interface ModalEditFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
   editingFood: Food;
-  handleUpdateFood: ({ food }: FoodForm) => void;
+  handleUpdateFood: (food: Food) => void;
 }
 
 const ModalEditFood: React.FC<ModalEditFoodProps> = ({
@@ -23,7 +23,7 @@ const ModalEditFood: React.FC<ModalEditFoodProps> = ({
   const formRef = useRef(null);
 
   const handleSubmit = ({ food }: FoodForm) => {
-    handleUpdateFood({ food });
+    handleUpdateFood(food as Food);
     setIsOpen();
   };
 
