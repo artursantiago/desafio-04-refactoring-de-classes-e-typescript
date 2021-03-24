@@ -21,7 +21,7 @@ const ModalAddFood: React.FC<ModalAndFoodProps> = ({
   const formRef = useRef(null);
   
   const handleSubmit = ({ food }: FoodForm) => {
-    handleAddFood(food as Food);
+    handleAddFood({ ...food, available: true } as Food);
     setIsOpen();
   };
   

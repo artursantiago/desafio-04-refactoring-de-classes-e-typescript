@@ -3,10 +3,10 @@ export interface Food {
   name: string;
   description: string;
   price: number;
-  avaiable: boolean;
+  available: boolean;
   image: string;
 }
 
 export interface FoodForm {
-  food: Omit<Food, 'id' | 'avaiable'>
+  food: Omit<Food, 'id' | 'available'>
 }

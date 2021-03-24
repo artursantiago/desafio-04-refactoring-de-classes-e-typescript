@@ -16,8 +16,8 @@ const Food: React.FC<FoodProps> = ({
   handleEditFood,
   handleDelete,
 }: FoodProps) => {
-  const [isAvailable, setIsAvailable] = useState(food.avaiable);
-
+  const [isAvailable, setIsAvailable] = useState(food.available);
+  
   const toggleAvailable = async () => {
     await api.put(`/foods/${food.id}`, {
       ...food,
